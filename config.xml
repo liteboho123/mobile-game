@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id='com.phonegap.LitebohoBossD' version='3.0.0' xmlns='http://www.w3.org/ns/widgets' xmlns:gap='http://phonegap.com/ns/1.0'>
+<name>Liteboho</name>
+<description>
+Liteboho is an awesome nigga
+</description>
+<author email="liteboholesenyeho@gmail.com" href="www.google.com">
+Liteboho Lesenyeho
+</author>
+
+<preference name="permissions" value="none"/>
+<preference name="phonegap-version" value="cli-6.4.0" />
+<preference name="orientation" value="default" />
+<preference name="target-device" value="universal" />
+<preference name="fullscreen" value="true" />
+<preference name="webviewbounce" value="false"/>
+<preference name="prerendered-icon" value="true"/>
+<preference name="stay-in-webview" value="false"/>
+<preference name="ios-statusbarstyle" value="black-opaque"/>
+<preference name="detect-data-types" value="true"/>
+<preference name="exit-on-suspend" value="false"/>
+<preference name="show-splash-screen-spinner" value="true"/>
+<preference name="auto-hide-splash-screen" value="false" />
+<preference name="SplashScreenDelay" value="10000" />
+<!-- delete webviewbounce for fade to work -->
+<preference name="FadeSplashScreen" value="true" />
+<preference name="FadeSplashScreenDuration" value="3000" />
+<preference name="SplashMaintainAspectRatio" value="true" />
+<preference name="SplashShowOnlyFirstTime" value="false" />
+<preference name="disable-cursor" value="false" />
+<preference name="android-minSdkVersion" value="7" />
+<preference name="andriod-installLocation" value="auto" />
+
+
+
+<plugin name="cordova-plugin-splashscreen" source="npm" />
+
+<!-- comment -->
+<platform name="android">
+<icon src="images.jpg"  density="ldpi" />
+<icon src="images.jpg" density="mdpi"/>
+<icon src="images.jpg" density="hdpi" />
+<icon src="images.jpg" density="xhdpi" />
+<splash src="images.jpg" qualifier="port-ldpi" />
+<splash src="images.jpg" qualifier="port-mdpi" />
+<splash src="images.jpg" qualifier="port-hdpi" />
+<splash src="images.jpg" qualifier="port-xhdpi" />
+<splash src="images.jpg" qualifier="land-ldpi" />
+<splash src="images.jpg" qualifier="land-mdpi" />
+<splash src="images.jpg" qualifier="land-hdpi" />
+<splash src="images.jpg" qualifier="land-xhdpi" />
+<splash src="images.jpg"/>
+</platform>
+
+<access origin="*" />
+</widget>
